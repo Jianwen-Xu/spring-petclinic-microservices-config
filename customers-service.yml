@@ -16,3 +16,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
+togglz:
+  features:
+    CALL_PEOPLE_SERVICE:
+      enabled: true
